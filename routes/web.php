@@ -17,3 +17,7 @@ Route::get('/institute-add', function () {
 Route::get('/institute-list', function () {
     return view('Institutes.list');
 })->name('institute.list');
+
+Route::get('/admission-new', function () {
+    return view('Admission.add');
+})->name('admission.add');

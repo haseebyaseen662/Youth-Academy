@@ -123,7 +123,7 @@
                     </a>
                     <ul class="slide-menu child1">
                         <li class="slide has-sub">
-                            <a href="#" class="side-menu__item">Create Admission</a>
+                            <a href="{{ route('admission.add') }}" class="side-menu__item">Create Admission</a>
                         </li>
                         <li class="slide">
                             <a href="#" class="side-menu__item">Online Admission</a>
